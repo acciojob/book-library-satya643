@@ -50,7 +50,7 @@ body {
 }
 
 /* Title */
-.book h3 {
+.book h2 {
   font-size: 18px;
   margin: 10px 0 5px;
   text-transform: uppercase;
@@ -79,7 +79,7 @@ body {
     padding: 15px 0;
   }
 
-  .book h3 {
+  .book h2 {
     font-size: 16px;
   }
 
