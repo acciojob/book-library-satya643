@@ -4,98 +4,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Book Library</title>
-  <style>
-    body {
-      background-color: #f8f8f8;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    .book-library {
-      max-width: 1000px;
-      margin: 40px auto;
-      background-color: #ffffff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-
-    .book {
-      width: 200px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      overflow: hidden;
-      text-align: center;
-      background-color: #fff;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-      transition: transform 0.2s;
-    }
-
-    .book:hover {
-      transform: scale(1.03);
-    }
-
-    .book img {
-      width: 100%;
-      height: 280px;
-      object-fit: cover;
-    }
-
-    .book-title {
-      font-size: 18px;
-      font-weight: bold;
-      margin: 10px 0 5px;
-      color: #333;
-    }
-
-    .book-author {
-      color: #777777;
-      margin-bottom: 10px;
-    }
-
-    .book-price {
-      background-color: #2ecc71;
-      color: white;
-      padding: 6px 10px;
-      margin-bottom: 10px;
-      display: inline-block;
-      border-radius: 4px;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <div class="book-library">
-    <!-- Book 1 -->
     <div class="book">
-      <img src="https://covers.openlibrary.org/b/id/10594765-L.jpg" alt="Spy in the Amber">
-      <div class="book-title">Spy in the Amber</div>
-      <div class="book-author">Author: Khushwant Singh</div>
-      <div class="book-price">₹299</div>
+      <img src="https://m.media-amazon.com/images/I/71tI3Fx4DVL._SY522_.jpg" alt="Spy in the Amber">
+      <h3>Spy in the Amber</h3>
+      <p class="author">By Manohar Malgonkar</p>
+      <p class="price">₹299</p>
     </div>
 
-    <!-- Book 2 -->
     <div class="book">
-      <img src="https://covers.openlibrary.org/b/id/8315041-L.jpg" alt="Sacred Games">
-      <div class="book-title">Sacred Games</div>
-      <div class="book-author">Author: Vikram Chandra</div>
-      <div class="book-price">₹499</div>
+      <img src="https://m.media-amazon.com/images/I/81AFocW+JTL._SY522_.jpg" alt="Sacred Games">
+      <h3>Sacred Games</h3>
+      <p class="author">By Vikram Chandra</p>
+      <p class="price">₹499</p>
     </div>
 
-    <!-- Book 3 -->
     <div class="book">
-      <img src="https://covers.openlibrary.org/b/id/12092541-L.jpg" alt="Byomkesh Bakshi">
-      <div class="book-title">Byomkesh Bakshi</div>
-      <div class="book-author">Author: Sharadindu Bandyopadhyay</div>
-      <div class="book-price">₹199</div>
+      <img src="https://m.media-amazon.com/images/I/71eWTU9T1xL._SY522_.jpg" alt="Byomkesh Bakshi">
+      <h3>Byomkesh Bakshi</h3>
+      <p class="author">By Sharadindu Bandyopadhyay</p>
+      <p class="price">₹350</p>
     </div>
   </div>
-
 </body>
 </html>
